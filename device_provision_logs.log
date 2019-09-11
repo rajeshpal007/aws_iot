@@ -1,0 +1,28 @@
+[2019-09-11.13:08:38] Creating thing with name:[17]
+[2019-09-11.13:08:39] Thing [17] successfully created
+[2019-09-11.13:08:41] Thing type [iotDevice] successfully updated.
+[2019-09-11.13:08:43] Thing [17] successfully updated to thing type [iotDevice]
+[2019-09-11.13:08:45] Policy [iot-policy] successfully attached to thing [17]
+[2019-09-11.13:08:45] Root certificate downloaded successfully at [./17/AmazonRootCA1.pem]
+[2019-09-11.13:08:47] Thing [17] successfully attached to ARN  [arn:aws:iot:us-west-2:571534395508:cert/34d363d2c13072c8e26992a8b5ad77c2ce47fae206ddc9099d39a86d21f94f05]
+[2019-09-11.13:10:11] Creating thing with name:[18]
+[2019-09-11.13:10:13] Thing [18] successfully created
+[2019-09-11.13:10:15] Thing type [iotDevice] successfully updated.
+[2019-09-11.13:10:17] Thing [18] successfully updated to thing type [iotDevice]
+[2019-09-11.13:10:19] Policy [iot-policy] successfully attached to thing [18]
+[2019-09-11.13:10:19] Root certificate downloaded successfully at [./18/AmazonRootCA1.pem]
+[2019-09-11.13:10:20] Thing [18] successfully attached to ARN  [arn:aws:iot:us-west-2:571534395508:cert/c08b39f5a4ecf61d18968bd3ef33e4e24a1f0899187ecbe9d4f9a3271cc8fc2b]
+[2019-09-11.13:12:16] Creating thing with name:[19]
+[2019-09-11.13:12:17] Thing [19] successfully created
+[2019-09-11.13:12:19] Thing type [iotDevice] successfully updated.
+[2019-09-11.13:12:21] Thing [19] successfully updated to thing type [iotDevice]
+[2019-09-11.13:12:23] Policy [iot-policy] successfully attached to thing [19]
+[2019-09-11.13:12:23] Root certificate downloaded successfully at [./19/AmazonRootCA1.pem]
+[2019-09-11.13:12:25] Thing [19] successfully attached to ARN  [arn:aws:iot:us-west-2:571534395508:cert/aaabddf5032d564183c0cc037796699e9eb9da4bfbdb8772c2bc03f1e9f80bed]
+[2019-09-11.13:34:39] Creating thing with name:[20]
+[2019-09-11.13:34:41] Thing [20] successfully created
+[2019-09-11.13:34:43] Thing type [iotDevice] successfully updated.
+[2019-09-11.13:34:44] Thing [20] successfully updated to thing type [iotDevice]
+[2019-09-11.13:34:46] Policy [iot-policy] successfully attached to thing [20]
+[2019-09-11.13:34:46] Root certificate downloaded successfully at [./20/AmazonRootCA1.pem]
+[2019-09-11.13:34:48] Thing [20] successfully attached to ARN  [arn:aws:iot:us-west-2:571534395508:cert/fb96280b9f91d7eae1fad29677cd8d7537a15cec38ee29aec9aec23234b38c0f]

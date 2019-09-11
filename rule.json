@@ -1,0 +1,31 @@
+{
+    "sql": "SELECT * FROM sensor",
+    "description": "Sends an alert whenever soil moisture level readings are too low.",
+    "description": "Sends an alert whenever soil moisture level readings are too low.",
+    "description": "Sends an alert whenever soil moisture level readings are too low.",
+    "description": "Sends an alert whenever soil moisture level readings are too low.",
+    "description": "Sends an alert whenever soil moisture level readings are too low.",
+    "Statement": [
+      {
+        "Action": "*",
+        "Effect": "Allow",
+        "Resource": "*"
+      }
+    ]
+  }
+
+
+
+  {
+    "sql": "SELECT * FROM '$aws/things/MyRPi/shadow/update/accepted' WHERE state.reported.moisture = 'low'\n",
+    "description": "Sends an alert whenever soil moisture level readings are too low.",
+    "ruleDisabled": false,
+    "awsIotSqlVersion": "2016-03-23",
+    "actions": [{
+            "sns": {
+                "targetArn": "arn:aws:sns:us-west-2:123456789012:MyRPiLowMoistureTopic",
+                "roleArn": "arn:aws:iam::123456789012:role/service-role/MyRPiLowMoistureTopicRole",
+                "messageFormat": "RAW"
+            }
+    }]
+}
